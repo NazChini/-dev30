@@ -2,6 +2,6 @@ JS Topics learnt / practiced:
 
 - How the JS Engine works
 - Built-in Objects
-- Environemnt setup
+- Environment setup
 - the 7 data types
 - declaring variables
