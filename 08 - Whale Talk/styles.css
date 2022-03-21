@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Eczar', serif;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url(images/whales-talking.jpg), #b1f0ff;
+    background-size: contain;
+    background-position: 50% -80%;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 60vh auto 20vh;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+    /* gap: 2em; */
+    fofont-family: 'Eczar', serif;
+    /* border: 1px solid red; */
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#btn {
+    background: #000;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 0.3em;
+    font-weight: 700;
+}
+
+#btn span {
+    -webkit-transform: rotate(-90deg);
+}
